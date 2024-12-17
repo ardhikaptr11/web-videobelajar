@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="login.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700&display=swap"
+			rel="stylesheet" />
+		<title>Login</title>
+	</head>
+	<body>
+		<header>
+            <nav id="navbar">
+                <a href="#" id="platform-logo">
+                    <img src="../assets/videobelajar-logo.png" alt="Platform logo" />
+                </a>
+            </nav>
+		</header>
+		<main id="content">
+			<section id="login-box">
+				<div id="welcome-text">
+					<h2>Masuk ke Akun</h2>
+					<p>Yuk, lanjutin belajarmu di videobelajar.</p>
+				</div>
+				<div id="login-form">
+					<div class="form-input">
+						<label for="email" id="email">E-Mail</label>
+						<input type="email" name="email" autocomplete="email" />
+					</div>
+					<div class="form-input">
+						<label for="password" id="password">Password</label>
+						<input type="password" name="password" autocomplete="current-password" />
+                        <img src="/assets/eye-off.png" alt="Password in hidden state" id="hide-password">
+					</div>
+					<div id="forgot-password">
+						<a href="#">Lupa Password?</a>
+					</div>
+				</div>
+				<div id="cta-button">
+					<button type="button" id="login-button">
+                        <p>Masuk</p>
+                    </button>
+					<button type="button" id="signup-button">
+                        <p>Daftar</p>
+                    </button>
+					<!-- <hr /> -->
+					<div id="divider">
+                        <span>atau</span>
+                    </div>
+					<button type="button" id="google-button">
+                        <img src="/assets/google-icon.png" alt="Google logo">
+                        <p>Masuk dengan Google</p>
+                    </button>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
