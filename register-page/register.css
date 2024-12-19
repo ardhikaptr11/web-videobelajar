@@ -39,6 +39,7 @@ h2 {
 
 #content {
 	position: relative;
+	margin: 28px 20px;
 }
 
 #login-box {
@@ -128,8 +129,11 @@ option {
 	padding: 4px 6px;
 }
 
-#password {
-	background: url("../assets/eye-off.png") right 10px center/18px no-repeat;
+.hide-password {
+	position: absolute;
+	top: 55%;
+	right: 10px;
+	cursor: pointer;
 }
 
 #cta-button button:not(:last-child) {
@@ -252,9 +256,9 @@ button:not(#google-button) p {
 		height: 25px;
 	}
 
-	#content {
+	/* #content {
 		margin: 28px 20px;
-	}
+	} */
 
 	label,
 	button p,
